@@ -36,9 +36,9 @@ const Checkout: React.FC = () => {
     const orderNumber = `PO-${Date.now()}`;
     const orderData = {
       items: state.items,
-      shipping: shippingInfo,
+      shippingInfo,
       subtotal,
-      shipping,
+      shippingCost: shipping,
       total,
       orderNumber,
       createdAt: new Date(),

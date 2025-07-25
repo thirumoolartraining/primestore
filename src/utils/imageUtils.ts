@@ -1,8 +1,8 @@
-// Import all images from the public directory
+// Import all images from the public directory using the recommended query parameter
 const imageModules = import.meta.glob('/public/images/**/*.{png,jpg,jpeg,webp,svg,gif}', { 
   eager: true,
-  import: 'default',
-  as: 'url'
+  query: '?url',
+  import: 'default'
 });
 
 /**
