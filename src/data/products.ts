@@ -1,5 +1,5 @@
 import { Product } from '../types';
-import { getImageUrl } from '../utils/imageUtils';
+import { getProductImages } from '../utils/imageUtils';
 
 export const products: Product[] = [
   {
@@ -15,12 +15,7 @@ export const products: Product[] = [
       'International quality standards',
       'Bulk packaging available'
     ],
-    images: [
-      getImageUrl('images/products/Professional Geometry Box Set/1.png'),
-      getImageUrl('images/products/Professional Geometry Box Set/2.png'),
-      getImageUrl('images/products/Professional Geometry Box Set/3.png'),
-      getImageUrl('images/products/Professional Geometry Box Set/4.png')
-    ],
+    images: getProductImages('Professional Geometry Box Set'),
     pricing: [
       { minQuantity: 100, maxQuantity: 499, price: 680, currency: 'INR' },
       { minQuantity: 500, maxQuantity: 999, price: 624, currency: 'INR' },
@@ -51,12 +46,7 @@ export const products: Product[] = [
       'Erases cleanly without ghosting',
       'Set of 8 assorted colors'
     ],
-    images: [
-      getImageUrl('images/products/Premium Whiteboard Marker Set/1.png'),
-      getImageUrl('images/products/Premium Whiteboard Marker Set/2.png'),
-      getImageUrl('images/products/Premium Whiteboard Marker Set/3.png'),
-      getImageUrl('images/products/Premium Whiteboard Marker Set/4.png')
-    ],
+    images: getProductImages('Premium Whiteboard Marker Set'),
     pricing: [
       { minQuantity: 100, maxQuantity: 499, price: 240, currency: 'INR' },
       { minQuantity: 500, maxQuantity: 1999, price: 216, currency: 'INR' },
@@ -87,12 +77,7 @@ export const products: Product[] = [
       'Professional grade',
       'Bulk quantity discounts'
     ],
-    images: [
-      getImageUrl('images/products/Precision Steel Ruler Set/1.png'),
-      getImageUrl('images/products/Precision Steel Ruler Set/2.png'),
-      getImageUrl('images/products/Precision Steel Ruler Set/3.png'),
-      getImageUrl('images/products/Precision Steel Ruler Set/4.png')
-    ],
+    images: getProductImages('Precision Steel Ruler Set'),
     pricing: [
       { minQuantity: 500, maxQuantity: 1999, price: 224, currency: 'INR' },
       { minQuantity: 2000, maxQuantity: 9999, price: 192, currency: 'INR' },
@@ -123,12 +108,7 @@ export const products: Product[] = [
       'Professional quality',
       'Durable construction'
     ],
-    images: [
-      getImageUrl('images/products/Professional Drawing Compass/1.png'),
-      getImageUrl('images/products/Professional Drawing Compass/2.png'),
-      getImageUrl('images/products/Professional Drawing Compass/3.png'),
-      getImageUrl('images/products/Professional Drawing Compass/4.png')
-    ],
+    images: getProductImages('Professional Drawing Compass'),
     pricing: [
       { minQuantity: 100, maxQuantity: 499, price: 1000, currency: 'INR' },
       { minQuantity: 500, maxQuantity: 1999, price: 896, currency: 'INR' },
@@ -159,12 +139,7 @@ export const products: Product[] = [
       'Bulk packaging',
       'Custom branding available'
     ],
-    images: [
-      getImageUrl('images/products/Scented Clipboard Collection/1.png'),
-      getImageUrl('images/products/Scented Clipboard Collection/2.png'),
-      getImageUrl('images/products/Scented Clipboard Collection/3.png'),
-      getImageUrl('images/products/Scented Clipboard Collection/4.png')
-    ],
+    images: getProductImages('Scented Clipboard Collection'),
     pricing: [
       { minQuantity: 250, maxQuantity: 999, price: 544, currency: 'INR' },
       { minQuantity: 1000, maxQuantity: 4999, price: 472, currency: 'INR' },
@@ -195,12 +170,7 @@ export const products: Product[] = [
       'Tear-resistant',
       'Educational institution approved'
     ],
-    images: [
-      getImageUrl('images/products/Customizable Book Cover Kit/1.png'),
-      getImageUrl('images/products/Customizable Book Cover Kit/2.png'),
-      getImageUrl('images/products/Customizable Book Cover Kit/3.png'),
-      getImageUrl('images/products/Customizable Book Cover Kit/4.png')
-    ],
+    images: getProductImages('Customizable Book Cover Kit'),
     pricing: [
       { minQuantity: 1000, maxQuantity: 4999, price: 68, currency: 'INR' },
       { minQuantity: 5000, maxQuantity: 19999, price: 58, currency: 'INR' },

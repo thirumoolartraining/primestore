@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import { Award, Users, Globe, Factory, Target, Heart, CheckCircle } from 'lucide-react';
 import { getImageUrl } from '../utils/imageUtils';
 
+// Import the hero image
+const heroImage = getImageUrl('images/about/GE.jpg');
+
 const About: React.FC = () => {
   const milestones = [
     { year: '2015', event: 'Company founded with focus on school stationery manufacturing' },
@@ -62,7 +65,7 @@ const About: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src={getImageUrl('images/about/GE.jpg')}
+                src={heroImage}
                 alt="Global Excellence in Stationery Manufacturing"
                 className="rounded-lg shadow-2xl w-full h-auto object-cover"
               />
