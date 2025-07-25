@@ -1,4 +1,5 @@
 import { Product } from '../types';
+import { getImageUrl } from '../utils/imageUtils';
 
 export const products: Product[] = [
   {
@@ -15,10 +16,10 @@ export const products: Product[] = [
       'Bulk packaging available'
     ],
     images: [
-      '/images/products/Professional Geometry Box Set/1.png',
-      '/images/products/Professional Geometry Box Set/2.png',
-      '/images/products/Professional Geometry Box Set/3.png',
-      '/images/products/Professional Geometry Box Set/4.png'
+      getImageUrl('images/products/Professional Geometry Box Set/1.png'),
+      getImageUrl('images/products/Professional Geometry Box Set/2.png'),
+      getImageUrl('images/products/Professional Geometry Box Set/3.png'),
+      getImageUrl('images/products/Professional Geometry Box Set/4.png')
     ],
     pricing: [
       { minQuantity: 100, maxQuantity: 499, price: 680, currency: 'INR' },
@@ -51,10 +52,10 @@ export const products: Product[] = [
       'Set of 8 assorted colors'
     ],
     images: [
-      '/images/products/Premium Whiteboard Marker Set/1.png',
-      '/images/products/Premium Whiteboard Marker Set/2.png',
-      '/images/products/Premium Whiteboard Marker Set/3.png',
-      '/images/products/Premium Whiteboard Marker Set/4.png'
+      getImageUrl('images/products/Premium Whiteboard Marker Set/1.png'),
+      getImageUrl('images/products/Premium Whiteboard Marker Set/2.png'),
+      getImageUrl('images/products/Premium Whiteboard Marker Set/3.png'),
+      getImageUrl('images/products/Premium Whiteboard Marker Set/4.png')
     ],
     pricing: [
       { minQuantity: 100, maxQuantity: 499, price: 240, currency: 'INR' },
@@ -87,10 +88,10 @@ export const products: Product[] = [
       'Bulk quantity discounts'
     ],
     images: [
-      '/images/products/Precision Steel Ruler Set/1.png',
-      '/images/products/Precision Steel Ruler Set/2.png',
-      '/images/products/Precision Steel Ruler Set/3.png',
-      '/images/products/Precision Steel Ruler Set/4.png'
+      getImageUrl('images/products/Precision Steel Ruler Set/1.png'),
+      getImageUrl('images/products/Precision Steel Ruler Set/2.png'),
+      getImageUrl('images/products/Precision Steel Ruler Set/3.png'),
+      getImageUrl('images/products/Precision Steel Ruler Set/4.png')
     ],
     pricing: [
       { minQuantity: 500, maxQuantity: 1999, price: 224, currency: 'INR' },
@@ -123,10 +124,10 @@ export const products: Product[] = [
       'Durable construction'
     ],
     images: [
-      '/images/products/Professional Drawing Compass/1.png',
-      '/images/products/Professional Drawing Compass/2.png',
-      '/images/products/Professional Drawing Compass/3.png',
-      '/images/products/Professional Drawing Compass/4.png'
+      getImageUrl('images/products/Professional Drawing Compass/1.png'),
+      getImageUrl('images/products/Professional Drawing Compass/2.png'),
+      getImageUrl('images/products/Professional Drawing Compass/3.png'),
+      getImageUrl('images/products/Professional Drawing Compass/4.png')
     ],
     pricing: [
       { minQuantity: 100, maxQuantity: 499, price: 1000, currency: 'INR' },
@@ -159,10 +160,10 @@ export const products: Product[] = [
       'Custom branding available'
     ],
     images: [
-      '/images/products/Scented Clipboard Collection/1.png',
-      '/images/products/Scented Clipboard Collection/2.png',
-      '/images/products/Scented Clipboard Collection/3.png',
-      '/images/products/Scented Clipboard Collection/4.png'
+      getImageUrl('images/products/Scented Clipboard Collection/1.png'),
+      getImageUrl('images/products/Scented Clipboard Collection/2.png'),
+      getImageUrl('images/products/Scented Clipboard Collection/3.png'),
+      getImageUrl('images/products/Scented Clipboard Collection/4.png')
     ],
     pricing: [
       { minQuantity: 250, maxQuantity: 999, price: 544, currency: 'INR' },
@@ -195,10 +196,10 @@ export const products: Product[] = [
       'Educational institution approved'
     ],
     images: [
-      '/images/products/Customizable Book Cover Kit/1.png',
-      '/images/products/Customizable Book Cover Kit/2.png',
-      '/images/products/Customizable Book Cover Kit/3.png',
-      '/images/products/Customizable Book Cover Kit/4.png'
+      getImageUrl('images/products/Customizable Book Cover Kit/1.png'),
+      getImageUrl('images/products/Customizable Book Cover Kit/2.png'),
+      getImageUrl('images/products/Customizable Book Cover Kit/3.png'),
+      getImageUrl('images/products/Customizable Book Cover Kit/4.png')
     ],
     pricing: [
       { minQuantity: 1000, maxQuantity: 4999, price: 68, currency: 'INR' },

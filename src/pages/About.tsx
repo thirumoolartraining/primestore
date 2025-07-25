@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Award, Users, Globe, Factory, Target, Heart, CheckCircle } from 'lucide-react';
+import { getImageUrl } from '../utils/imageUtils';
 
 const About: React.FC = () => {
   const milestones = [
@@ -61,7 +62,7 @@ const About: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src="/images/about/GE.jpg"
+                src={getImageUrl('images/about/GE.jpg')}
                 alt="Global Excellence in Stationery Manufacturing"
                 className="rounded-lg shadow-2xl w-full h-auto object-cover"
               />
