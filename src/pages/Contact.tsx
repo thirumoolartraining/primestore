@@ -55,8 +55,7 @@ const Contact: React.FC = () => {
       icon: Mail,
       title: 'Email Addresses',
       details: [
-        'info@primestore.in',
-        'primestore0606@gmail.com'
+        'contact@theprimestores.com'
       ]
     },
     {
@@ -78,7 +77,7 @@ const Contact: React.FC = () => {
       type: 'Head Office & Manufacturing',
       address: 'No: 5/41, Bunder Street, Kothwal Bazaar',
       phone: '90031 76317',
-      email: 'info@primestore.in, primestore0606@gmail.com'
+      email: 'contact@theprimestores.com'
     }
   ];
 

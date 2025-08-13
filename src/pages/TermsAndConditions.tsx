@@ -162,7 +162,7 @@ const TermsAndConditions: React.FC = () => {
                     <Mail className="mr-2 text-blue-600" />
                     Email Us
                   </h3>
-                  <a href="mailto:info@primestore.in" className="text-blue-600 hover:underline">info@primestore.in</a>
+                  <a href="mailto:contact@theprimestores.com" className="text-blue-600 hover:underline">contact@theprimestores.com</a>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow-sm">

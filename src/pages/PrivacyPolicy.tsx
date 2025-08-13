@@ -100,7 +100,7 @@ const PrivacyPolicy: React.FC = () => {
               <li>Report concerns about misuse or data protection violations</li>
             </ul>
             <p className="text-gray-700">
-              To exercise your rights, contact us at <a href="mailto:info@primestore.in" className="text-blue-600 hover:underline">info@primestore.in</a>. We aim to respond to requests within 30 days.
+              To exercise your rights, contact us at <a href="mailto:contact@theprimestores.com" className="text-blue-600 hover:underline">contact@theprimestores.com</a>. We aim to respond to requests within 30 days.
             </p>
           </section>
 
@@ -131,7 +131,7 @@ const PrivacyPolicy: React.FC = () => {
                     <Mail className="mr-2 text-blue-600" />
                     Email Us
                   </h3>
-                  <a href="mailto:info@primestore.in" className="text-blue-600 hover:underline">info@primestore.in</a>
+                  <a href="mailto:contact@theprimestores.com" className="text-blue-600 hover:underline">contact@theprimestores.com</a>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow-sm">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, Search, ArrowLeft } from 'lucide-react';
+import { Home, Search } from 'lucide-react';
 
 const NotFound: React.FC = () => {
   return (
@@ -90,8 +90,8 @@ const NotFound: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-2 text-sm">
             <div className="flex items-center text-blue-800">
               <span className="font-medium mr-2">Email:</span>
-              <a href="mailto:info@primestore.in" className="hover:underline">
-                info@primestore.in
+              <a href="mailto:contact@theprimestores.com" className="hover:underline">
+                contact@theprimestores.com
               </a>
             </div>
             <div className="flex items-center text-blue-800">

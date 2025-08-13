@@ -158,7 +158,7 @@ const CancellationRefundPolicy: React.FC = () => {
                 <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Mail className="text-blue-600" />
                 </div>
-                <a href="mailto:info@primestore.in" className="text-blue-600 hover:underline">info@primestore.in</a>
+                <a href="mailto:contact@theprimestores.com" className="text-blue-600 hover:underline">contact@theprimestores.com</a>
               </div>
               
               <div className="bg-white p-4 rounded-lg text-center">

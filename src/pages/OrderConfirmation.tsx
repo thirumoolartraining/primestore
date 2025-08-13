@@ -173,7 +173,7 @@ const OrderConfirmation: React.FC = () => {
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-600 mr-2" />
-                <span>info@primestore.in</span>
+                <span>contact@theprimestores.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-600 mr-2" />
