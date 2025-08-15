@@ -90,14 +90,14 @@ const NotFound: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-2 text-sm">
             <div className="flex items-center text-blue-800">
               <span className="font-medium mr-2">Email:</span>
-              <a href="mailto:contact@theprimestores.com" className="hover:underline">
-                contact@theprimestores.com
+              <a href="mailto:primestores0606@gmail.com" className="hover:underline">
+                primestores0606@gmail.com
               </a>
             </div>
             <div className="flex items-center text-blue-800">
               <span className="font-medium mr-2">Phone:</span>
-              <a href="tel:9003176317" className="hover:underline">
-                90031 76317
+              <a href="tel:919751358211" className="hover:underline">
+                +91 97513 58211
               </a>
             </div>
           </div>

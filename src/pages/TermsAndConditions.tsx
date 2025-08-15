@@ -162,7 +162,7 @@ const TermsAndConditions: React.FC = () => {
                     <Mail className="mr-2 text-blue-600" />
                     Email Us
                   </h3>
-                  <a href="mailto:contact@theprimestores.com" className="text-blue-600 hover:underline">contact@theprimestores.com</a>
+                  <a href="mailto:primestores0606@gmail.com" className="text-blue-600 hover:underline">primestores0606@gmail.com</a>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -170,7 +170,7 @@ const TermsAndConditions: React.FC = () => {
                     <Phone className="mr-2 text-blue-600" />
                     Call Us
                   </h3>
-                  <a href="tel:+919003176317" className="text-blue-600 hover:underline">+91 90031 76317</a>
+                  <a href="tel:+919751358211" className="text-blue-600 hover:underline">+91 97513 58211</a>
                 </div>
               </div>
             </div>

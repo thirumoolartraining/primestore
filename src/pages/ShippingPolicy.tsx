@@ -179,14 +179,14 @@ const ShippingPolicy: React.FC = () => {
                 <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Mail className="text-blue-600" />
                 </div>
-                <a href="mailto:contact@theprimestores.com" className="text-blue-600 hover:underline">contact@theprimestores.com</a>
+                <a href="mailto:primestores0606@gmail.com" className="text-blue-600 hover:underline">primestores0606@gmail.com</a>
               </div>
               
               <div className="bg-white p-4 rounded-lg text-center">
                 <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Phone className="text-blue-600" />
                 </div>
-                <a href="tel:+919003176317" className="text-blue-600 hover:underline">+91 90031 76317</a>
+                <a href="tel:+919751358211" className="text-blue-600 hover:underline">+91 97513 58211</a>
               </div>
               
               <div className="bg-white p-4 rounded-lg text-center">

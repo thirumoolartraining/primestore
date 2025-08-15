@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-gray-300 mb-4">
               Leading global distributor and exporter of premium school stationery products. 
-              Serving international wholesalers with quality and reliability since 2015.
+              Committed to quality, innovation, and customer satisfaction.
             </p>
             <div className="flex space-x-2">
               <Award className="h-5 w-5 text-orange-500" />
@@ -58,31 +58,57 @@ const Footer: React.FC = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
-            <div className="space-y-3">
-              <div className="flex items-start">
-                <MapPin className="h-5 w-5 mr-3 text-orange-500 mt-0.5" />
-                <div>
-                  <p className="text-gray-300">No: 5/41, Bunder Street</p>
-                  <p className="text-gray-300">Kothwal Bazaar</p>
-                  <p className="text-gray-300">Chennai - 600001</p>
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <h4 className="font-medium text-gray-200">Email</h4>
+                <div className="space-y-1">
+                  <div className="flex items-center text-gray-300">
+                    <Mail className="w-4 h-4 mr-2 text-orange-500" />
+                    <a href="mailto:primestores0606@gmail.com" className="hover:text-white transition-colors">
+                      primestores0606@gmail.com
+                    </a>
+                  </div>
+                  <div className="flex items-center text-gray-300">
+                    <Mail className="w-4 h-4 mr-2 text-orange-500" />
+                    <a href="mailto:sales@primestore.com" className="hover:text-white transition-colors">
+                      sales@primestore.com
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <Phone className="h-5 w-5 mr-3 text-orange-500" />
-                <span className="text-gray-300">90031 76317</span>
+
+              <div className="space-y-2">
+                <h4 className="font-medium text-gray-200">Phone</h4>
+                <div className="space-y-1">
+                  <div className="flex items-center text-gray-300">
+                    <Phone className="w-4 h-4 mr-2 text-orange-500" />
+                    <a href="tel:+919751358211" className="hover:text-white transition-colors">
+                      +91 97513 58211
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center">
-                <Mail className="h-5 w-5 mr-3 text-orange-500" />
-                <span className="text-gray-300">contact@theprimestores.com</span>
+
+              <div className="space-y-2">
+                <h4 className="font-medium text-gray-200">Address</h4>
+                <div className="flex items-start text-gray-300">
+                  <MapPin className="h-5 w-5 mr-2 text-orange-500 mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p>No: 5/41, Bunder Street</p>
+                    <p>Kothwal Bazaar</p>
+                    <p>Chennai - 600001</p>
+                  </div>
+                </div>
               </div>
             </div>
+
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Primestore International. All rights reserved.
+              &copy; 2024 Primestore International. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">
