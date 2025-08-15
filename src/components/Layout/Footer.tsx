@@ -70,8 +70,8 @@ const Footer: React.FC = () => {
                   </div>
                   <div className="flex items-center text-gray-300">
                     <Mail className="w-4 h-4 mr-2 text-orange-500" />
-                    <a href="mailto:contact@primestores.com" className="hover:text-white transition-colors">
-                      contact@primestores.com
+                    <a href="mailto:contact@theprimestores.com" className="hover:text-white transition-colors">
+                      contact@theprimestores.com
                     </a>
                   </div>
                 </div>
