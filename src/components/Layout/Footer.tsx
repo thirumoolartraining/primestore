@@ -16,6 +16,9 @@ const Footer: React.FC = () => {
               Leading global distributor and exporter of premium school stationery products. 
               Committed to quality, innovation, and customer satisfaction.
             </p>
+            <p className="text-gray-300 mb-3 text-sm">
+              <span className="font-medium">Proprietor:</span> Syed Mohammed Vasim Raja
+            </p>
             <div className="flex space-x-2">
               <Award className="h-5 w-5 text-orange-500" />
               <span className="text-sm text-gray-300">Quality Manufacturing</span>
